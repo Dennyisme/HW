@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\build\CMakeFiles\453760d4ad42aadc27966b069631fc7b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E086D6E4-4EF6-31CE-89FB-E9A10301E9F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

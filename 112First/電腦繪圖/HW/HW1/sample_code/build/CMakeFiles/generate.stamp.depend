@@ -1,0 +1,35 @@
+# CMake generation dependency list for this directory.
+C:/OpenGL/thepathiknow/lib/cmake/glfw3/glfw3Config.cmake
+C:/OpenGL/thepathiknow/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+C:/OpenGL/thepathiknow/lib/cmake/glfw3/glfw3Targets-debug.cmake
+C:/OpenGL/thepathiknow/lib/cmake/glfw3/glfw3Targets-release.cmake
+C:/OpenGL/thepathiknow/lib/cmake/glfw3/glfw3Targets.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake
+D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/CMakeLists.txt
+D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/3.27.5/CMakeCCompiler.cmake
+D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/3.27.5/CMakeCXXCompiler.cmake
+D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/3.27.5/CMakeRCCompiler.cmake
+D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/3.27.5/CMakeSystem.cmake
+D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/thirdparty/glm/cmake/glm/glmConfig-version.cmake
+D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/thirdparty/glm/cmake/glm/glmConfig.cmake

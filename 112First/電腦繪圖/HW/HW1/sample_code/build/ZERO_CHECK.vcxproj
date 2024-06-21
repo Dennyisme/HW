@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{813C759F-B44F-37BE-B07C-D0654A608F60}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\02f6c989b32fc0237c9f931bf8adb3f0\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code -BD:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/Homework01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Config.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3ConfigVersion.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets-debug.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets-release.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeCCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeCXXCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeRCCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeSystem.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\cmake\CompilerOptions.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\cmake\PostBuildCommand.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glad\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glm\cmake\glm\glmConfig-version.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glm\cmake\glm\glmConfig.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\imgui\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\stb\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\tinyobjloader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\glad\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\imgui\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\stb\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\tinyobjloader\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code -BD:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/Homework01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Config.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3ConfigVersion.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets-debug.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets-release.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeCCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeCXXCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeRCCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeSystem.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\cmake\CompilerOptions.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\cmake\PostBuildCommand.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glad\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glm\cmake\glm\glmConfig-version.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glm\cmake\glm\glmConfig.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\imgui\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\stb\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\tinyobjloader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\glad\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\imgui\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\stb\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\tinyobjloader\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code -BD:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/Homework01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Config.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3ConfigVersion.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets-debug.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets-release.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeCCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeCXXCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeRCCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeSystem.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\cmake\CompilerOptions.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\cmake\PostBuildCommand.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glad\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glm\cmake\glm\glmConfig-version.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glm\cmake\glm\glmConfig.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\imgui\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\stb\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\tinyobjloader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\glad\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\imgui\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\stb\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\tinyobjloader\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code -BD:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/Homework01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Config.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3ConfigVersion.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets-debug.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets-release.cmake;C:\OpenGL\thepathiknow\lib\cmake\glfw3\glfw3Targets.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeCCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeCXXCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeRCCompiler.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\3.27.5\CMakeSystem.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\cmake\CompilerOptions.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\cmake\PostBuildCommand.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glad\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glm\cmake\glm\glmConfig-version.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\glm\cmake\glm\glmConfig.cmake;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\imgui\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\stb\CMakeLists.txt;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\tinyobjloader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\glad\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\imgui\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\stb\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\tinyobjloader\CMakeFiles\generate.stamp;D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

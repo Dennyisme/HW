@@ -1,0 +1,221 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      已經開始建置於 2023/9/26 下午 09:19:48。
+      
+      節點 1 (預設目標) 上的專案 "D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\3.27.5\\CompilerIdC\\CompilerIdC.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdC.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\3.27.5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"。
+      專案 "D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\3.27.5\\CompilerIdC\\CompilerIdC.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:00.74
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/3.27.5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      已經開始建置於 2023/9/26 下午 09:19:49。
+      
+      節點 1 (預設目標) 上的專案 "D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\3.27.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdCXX.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\3.27.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"。
+      專案 "D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\3.27.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:00.58
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/3.27.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/\u8ab2\u7a0b/\u96fb\u8166\u7e6a\u5716/HW/HW1/P76121314_\u912d\u715c\u91b4/sample_code/build/CMakeFiles/CMakeScratch/TryCompile-yqo5yk"
+      binary: "D:/\u8ab2\u7a0b/\u96fb\u8166\u7e6a\u5716/HW/HW1/P76121314_\u912d\u715c\u91b4/sample_code/build/CMakeFiles/CMakeScratch/TryCompile-yqo5yk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/CMakeScratch/TryCompile-yqo5yk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_69eaf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        已經開始建置於 2023/9/26 下午 09:19:50。
+        
+        節點 1 (預設目標) 上的專案 "D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqo5yk\\cmTC_69eaf.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_69eaf.dir\\Debug\\"。
+          正在建立目錄 "D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqo5yk\\Debug\\"。
+          正在建立目錄 "cmTC_69eaf.dir\\Debug\\cmTC_69eaf.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_69eaf.dir\\Debug\\cmTC_69eaf.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69eaf.dir\\Debug\\\\" /Fd"cmTC_69eaf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32535 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69eaf.dir\\Debug\\\\" /Fd"cmTC_69eaf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqo5yk\\Debug\\cmTC_69eaf.exe" /INCREMENTAL /ILK:"cmTC_69eaf.dir\\Debug\\cmTC_69eaf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/CMakeScratch/TryCompile-yqo5yk/Debug/cmTC_69eaf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/CMakeScratch/TryCompile-yqo5yk/Debug/cmTC_69eaf.lib" /MACHINE:X64  /machine:x64 cmTC_69eaf.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_69eaf.vcxproj -> D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqo5yk\\Debug\\cmTC_69eaf.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_69eaf.dir\\Debug\\cmTC_69eaf.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_69eaf.dir\\Debug\\cmTC_69eaf.tlog\\cmTC_69eaf.lastbuildstate"。
+        專案 "D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqo5yk\\cmTC_69eaf.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/\u8ab2\u7a0b/\u96fb\u8166\u7e6a\u5716/HW/HW1/P76121314_\u912d\u715c\u91b4/sample_code/build/CMakeFiles/CMakeScratch/TryCompile-gr5m1h"
+      binary: "D:/\u8ab2\u7a0b/\u96fb\u8166\u7e6a\u5716/HW/HW1/P76121314_\u912d\u715c\u91b4/sample_code/build/CMakeFiles/CMakeScratch/TryCompile-gr5m1h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/CMakeScratch/TryCompile-gr5m1h'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_39d83.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        已經開始建置於 2023/9/26 下午 09:19:51。
+        
+        節點 1 (預設目標) 上的專案 "D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5m1h\\cmTC_39d83.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_39d83.dir\\Debug\\"。
+          正在建立目錄 "D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5m1h\\Debug\\"。
+          正在建立目錄 "cmTC_39d83.dir\\Debug\\cmTC_39d83.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_39d83.dir\\Debug\\cmTC_39d83.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_39d83.dir\\Debug\\\\" /Fd"cmTC_39d83.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32535 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_39d83.dir\\Debug\\\\" /Fd"cmTC_39d83.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5m1h\\Debug\\cmTC_39d83.exe" /INCREMENTAL /ILK:"cmTC_39d83.dir\\Debug\\cmTC_39d83.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/CMakeScratch/TryCompile-gr5m1h/Debug/cmTC_39d83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/CMakeFiles/CMakeScratch/TryCompile-gr5m1h/Debug/cmTC_39d83.lib" /MACHINE:X64  /machine:x64 cmTC_39d83.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_39d83.vcxproj -> D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5m1h\\Debug\\cmTC_39d83.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_39d83.dir\\Debug\\cmTC_39d83.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_39d83.dir\\Debug\\cmTC_39d83.tlog\\cmTC_39d83.lastbuildstate"。
+        專案 "D:\\課程\\電腦繪圖\\HW\\HW1\\P76121314_鄭煜醴\\sample_code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gr5m1h\\cmTC_39d83.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.53
+        
+      exitCode: 0
+...

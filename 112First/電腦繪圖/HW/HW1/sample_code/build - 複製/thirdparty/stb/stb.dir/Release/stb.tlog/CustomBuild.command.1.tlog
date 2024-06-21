@@ -1,0 +1,10 @@
+^D:\課程\電腦繪圖\PPT\HW1\SAMPLE_CODE\THIRDPARTY\STB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/ppt/hw1/sample_code -BD:/課程/電腦繪圖/ppt/hw1/sample_code/build --check-stamp-file D:/課程/電腦繪圖/ppt/hw1/sample_code/build/thirdparty/stb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

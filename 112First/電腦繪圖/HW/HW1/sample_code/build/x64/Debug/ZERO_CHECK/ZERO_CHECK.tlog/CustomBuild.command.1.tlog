@@ -1,0 +1,10 @@
+^D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\SAMPLE_CODE\BUILD\CMAKEFILES\02F6C989B32FC0237C9F931BF8ADB3F0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code -BD:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/build/Homework01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

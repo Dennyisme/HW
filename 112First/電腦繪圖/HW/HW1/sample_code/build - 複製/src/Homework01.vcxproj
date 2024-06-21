@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{20804478-D3A0-352E-9BAD-1E30BD158681}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Homework01</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Homework01.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Homework01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Homework01.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Homework01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Homework01.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Homework01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Homework01.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Homework01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/OpenGL/thepathiknow/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;C:\OpenGL\thepathiknow\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;C:\OpenGL\thepathiknow\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\OpenGL\thepathiknow\lib\cmake\glfw3/../../../bin/glfw3.dll D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/課程/電腦繪圖/ppt/hw1/sample_code/src/Shader D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/Debug/Shader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/課程/電腦繪圖/ppt/hw1/sample_code/resources D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/Debug/resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\thirdparty\glad\Debug\glad.lib;..\thirdparty\imgui\Debug\imgui.lib;..\thirdparty\stb\Debug\stb.lib;..\thirdparty\tinyobjloader\Debug\tinyobjloader.lib;..\thirdparty\glad\Debug\glad.lib;C:\OpenGL\thepathiknow\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/課程/電腦繪圖/ppt/hw1/sample_code/build/lib/Debug/Homework01.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/Debug/Homework01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/OpenGL/thepathiknow/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;C:\OpenGL\thepathiknow\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;C:\OpenGL\thepathiknow\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\OpenGL\thepathiknow\lib\cmake\glfw3/../../../bin/glfw3.dll D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/課程/電腦繪圖/ppt/hw1/sample_code/src/Shader D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/Release/Shader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/課程/電腦繪圖/ppt/hw1/sample_code/resources D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/Release/resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\thirdparty\glad\Release\glad.lib;..\thirdparty\imgui\Release\imgui.lib;..\thirdparty\stb\Release\stb.lib;..\thirdparty\tinyobjloader\Release\tinyobjloader.lib;..\thirdparty\glad\Release\glad.lib;C:\OpenGL\thepathiknow\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/課程/電腦繪圖/ppt/hw1/sample_code/build/lib/Release/Homework01.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/Release/Homework01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/OpenGL/thepathiknow/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;C:\OpenGL\thepathiknow\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;C:\OpenGL\thepathiknow\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\OpenGL\thepathiknow\lib\cmake\glfw3/../../../bin/glfw3.dll D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/課程/電腦繪圖/ppt/hw1/sample_code/src/Shader D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/MinSizeRel/Shader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/課程/電腦繪圖/ppt/hw1/sample_code/resources D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/MinSizeRel/resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\thirdparty\glad\MinSizeRel\glad.lib;..\thirdparty\imgui\MinSizeRel\imgui.lib;..\thirdparty\stb\MinSizeRel\stb.lib;..\thirdparty\tinyobjloader\MinSizeRel\tinyobjloader.lib;..\thirdparty\glad\MinSizeRel\glad.lib;C:\OpenGL\thepathiknow\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/課程/電腦繪圖/ppt/hw1/sample_code/build/lib/MinSizeRel/Homework01.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/MinSizeRel/Homework01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/OpenGL/thepathiknow/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;C:\OpenGL\thepathiknow\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\課程\電腦繪圖\ppt\hw1\sample_code\src;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glm;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\glad\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\stb\include;D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\tinyobjloader\include;C:\OpenGL\thepathiknow\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\OpenGL\thepathiknow\lib\cmake\glfw3/../../../bin/glfw3.dll D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/課程/電腦繪圖/ppt/hw1/sample_code/src/Shader D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/RelWithDebInfo/Shader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/課程/電腦繪圖/ppt/hw1/sample_code/resources D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/RelWithDebInfo/resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\thirdparty\glad\RelWithDebInfo\glad.lib;..\thirdparty\imgui\RelWithDebInfo\imgui.lib;..\thirdparty\stb\RelWithDebInfo\stb.lib;..\thirdparty\tinyobjloader\RelWithDebInfo\tinyobjloader.lib;..\thirdparty\glad\RelWithDebInfo\glad.lib;C:\OpenGL\thepathiknow\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/課程/電腦繪圖/ppt/hw1/sample_code/build/lib/RelWithDebInfo/Homework01.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/課程/電腦繪圖/ppt/hw1/sample_code/build/bin/RelWithDebInfo/Homework01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/課程/電腦繪圖/ppt/hw1/sample_code/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/ppt/hw1/sample_code -BD:/課程/電腦繪圖/ppt/hw1/sample_code/build --check-stamp-file D:/課程/電腦繪圖/ppt/hw1/sample_code/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\cmake\CompilerOptions.cmake;D:\課程\電腦繪圖\ppt\hw1\sample_code\cmake\PostBuildCommand.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/課程/電腦繪圖/ppt/hw1/sample_code/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/ppt/hw1/sample_code -BD:/課程/電腦繪圖/ppt/hw1/sample_code/build --check-stamp-file D:/課程/電腦繪圖/ppt/hw1/sample_code/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\cmake\CompilerOptions.cmake;D:\課程\電腦繪圖\ppt\hw1\sample_code\cmake\PostBuildCommand.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/課程/電腦繪圖/ppt/hw1/sample_code/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/ppt/hw1/sample_code -BD:/課程/電腦繪圖/ppt/hw1/sample_code/build --check-stamp-file D:/課程/電腦繪圖/ppt/hw1/sample_code/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\cmake\CompilerOptions.cmake;D:\課程\電腦繪圖\ppt\hw1\sample_code\cmake\PostBuildCommand.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/課程/電腦繪圖/ppt/hw1/sample_code/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/ppt/hw1/sample_code -BD:/課程/電腦繪圖/ppt/hw1/sample_code/build --check-stamp-file D:/課程/電腦繪圖/ppt/hw1/sample_code/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\cmake\CompilerOptions.cmake;D:\課程\電腦繪圖\ppt\hw1\sample_code\cmake\PostBuildCommand.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\課程\電腦繪圖\ppt\hw1\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Model\Mesh.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Model\TextureFactory.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGLWindow.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\Detail\Set.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLBufferObject.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLException.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLShader.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLShaderProgram.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLVertexArrayObject.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLTexture.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Utils\Compilers.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Utils\Global.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Utils\StringFormat\StringFormat.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Utils\FileIO\Detail\Generals.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Utils\FileIO\FileIn.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\Detail\Set-inl.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLShaderProgram-inl.hpp" />
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Utils\StringFormat\StringFormat-inl.hpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Main.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Model\Mesh.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Model\TextureFactory.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGLWindow.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLBufferObject.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLException.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLShader.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLShaderProgram.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLVertexArrayObject.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\OpenGL\OpenGLTexture.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Utils\FileIO\Detail\Generals.cpp" />
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\src\Utils\FileIO\FileIn.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\build\ZERO_CHECK.vcxproj">
+      <Project>{D6FC95A6-E7FC-3227-A109-57A34D32F7C9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\build\thirdparty\glad\glad.vcxproj">
+      <Project>{58D92F65-845B-354F-93BC-8EF1EC60F54D}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\build\thirdparty\imgui\imgui.vcxproj">
+      <Project>{7A7A70AD-890A-3450-8AE8-B80F41992F10}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\build\thirdparty\stb\stb.vcxproj">
+      <Project>{04978266-7B41-38F6-8147-52078BA67ED6}</Project>
+      <Name>stb</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\build\thirdparty\tinyobjloader\tinyobjloader.vcxproj">
+      <Project>{858101E8-20F2-3587-8D4A-7DF56970BB22}</Project>
+      <Name>tinyobjloader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

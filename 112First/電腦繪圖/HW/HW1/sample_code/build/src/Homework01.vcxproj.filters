@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Model\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Model\TextureFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGLWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLVertexArrayObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Utils\FileIO\Detail\Generals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Utils\FileIO\FileIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Model\Mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Model\TextureFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGLWindow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\Detail\Set.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLBufferObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLShader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLShaderProgram.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLVertexArrayObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLTexture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Utils\Compilers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Utils\Global.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Utils\StringFormat\StringFormat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Utils\FileIO\Detail\Generals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Utils\FileIO\FileIn.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\Detail\Set-inl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\OpenGL\OpenGLShaderProgram-inl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\Utils\StringFormat\StringFormat-inl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C147FB43-DF08-31D5-8212-DED67A194569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{25B72852-DFE7-3CF3-9AB0-665407CD888E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

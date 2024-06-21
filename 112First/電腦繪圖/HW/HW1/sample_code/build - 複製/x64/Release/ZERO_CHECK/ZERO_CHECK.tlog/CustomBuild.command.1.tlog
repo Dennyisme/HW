@@ -1,0 +1,10 @@
+^D:\課程\電腦繪圖\PPT\HW1\SAMPLE_CODE\BUILD\CMAKEFILES\453760D4AD42AADC27966B069631FC7B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/課程/電腦繪圖/ppt/hw1/sample_code -BD:/課程/電腦繪圖/ppt/hw1/sample_code/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/課程/電腦繪圖/ppt/hw1/sample_code/build/Homework01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

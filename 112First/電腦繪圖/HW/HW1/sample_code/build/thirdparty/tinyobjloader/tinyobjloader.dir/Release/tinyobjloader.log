@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/課程/電腦繪圖/HW/HW1/P76121314_鄭煜醴/sample_code/thirdparty/tinyobjloader/CMakeLists.txt
+  tiny_obj_loader.cc
+D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\tinyobjloader\include\tiny_obj_loader.h(1226,13): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\thirdparty\tinyobjloader\include\tiny_obj_loader.h(1253,17): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  tinyobjloader.vcxproj -> D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\thirdparty\tinyobjloader\Release\tinyobjloader.lib

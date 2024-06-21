@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\課程\電腦繪圖\ppt\hw1\sample_code\thirdparty\imgui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E5E2C39D-B257-3A4F-8C0F-91D9A1357250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5E7F47EA-8997-3782-85E9-CC947D34F060}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

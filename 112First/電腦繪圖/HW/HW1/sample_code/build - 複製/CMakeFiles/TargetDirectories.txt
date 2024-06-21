@@ -1,0 +1,7 @@
+D:/課程/電腦繪圖/ppt/hw1/sample_code/build/CMakeFiles/ALL_BUILD.dir
+D:/課程/電腦繪圖/ppt/hw1/sample_code/build/CMakeFiles/ZERO_CHECK.dir
+D:/課程/電腦繪圖/ppt/hw1/sample_code/build/thirdparty/glad/CMakeFiles/glad.dir
+D:/課程/電腦繪圖/ppt/hw1/sample_code/build/thirdparty/imgui/CMakeFiles/imgui.dir
+D:/課程/電腦繪圖/ppt/hw1/sample_code/build/thirdparty/stb/CMakeFiles/stb.dir
+D:/課程/電腦繪圖/ppt/hw1/sample_code/build/thirdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir
+D:/課程/電腦繪圖/ppt/hw1/sample_code/build/src/CMakeFiles/Homework01.dir

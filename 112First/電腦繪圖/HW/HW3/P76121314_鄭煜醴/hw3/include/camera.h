@@ -1,0 +1,203 @@
+#ifndef CAMERA_H
+#define CAMERA_H
+
+#include "../lib/glad/glad.h"
+#include "../lib/glm/glm.hpp"
+#include "../lib/glm/gtc/matrix_transform.hpp"
+#include <iostream>
+#include <vector>
+
+enum Camera_Movement
+{
+    FORWARD,
+    BACKWARD,
+    LEFT,
+    RIGHT,
+    UP,
+    DOWN
+};
+
+// Default camera values
+const float YAW = -90.0f;
+const float PITCH = 0.0f;
+const float SPEED = 10.0f;
+const float SENSITIVITY = 0.1f;
+const float ZOOM = 45.0f;
+const glm::vec3 POSITION = glm::vec3(0.0f, 0.0f, 0.0f);
+const glm::vec3 WORLDUP = glm::vec3(0.0f, 1.0f, 0.0f);
+const glm::vec3 FRONT = glm::vec3(0.0f, 0.0f, -1.0f);
+
+
+// An abstract camera class that processes input and calculates the corresponding Euler Angles, Vectors and Matrices for use in OpenGL
+class Camera
+{
+    public:
+        // Camera Attributes
+        glm::vec3 Position;
+        glm::vec3 Front;
+        glm::vec3 Up;
+        glm::vec3 Right;
+        glm::vec3 WorldUp;
+        
+        // Euler Angles
+        float Yaw;
+        float Pitch;
+
+        // Camera Options
+        float MovementSpeed;
+        float MouseSensitivity;
+        float zoom;
+
+        // Constructor with vectors
+        Camera(glm::vec3 position = POSITION , glm::vec3 up = WORLDUP, float yaw = YAW, float pitch = PITCH)
+        : Front(FRONT), Yaw(yaw), Pitch(pitch), MovementSpeed(SPEED), MouseSensitivity(SENSITIVITY), zoom(ZOOM)
+        {
+            Position = position;
+            WorldUp = up;
+            updateCameraVectors();
+        }
+
+        // Constructor with scalar values
+        Camera(float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw = YAW, float pitch = PITCH)
+        : Front(glm::vec3(0.0f, 0.0f, -1.0f)), Yaw(yaw), Pitch(pitch), MovementSpeed(SPEED), MouseSensitivity(SENSITIVITY), zoom(ZOOM)
+        {
+            Position = glm::vec3(posX, posY, posZ);
+            WorldUp = glm::vec3(upX, upY, upZ);
+            updateCameraVectors();
+        }
+
+        // Returns the view matrix calculated using Euler Angles and the LookAt Matrix
+        glm::mat4 GetViewMatrix()
+        {
+            return glm::lookAt(Position, (Position + Front), Up);
+        }
+
+        // Moves the camera towards the direction given. Accepts input parameter in the form of camera defined ENUM (to abstract it from windowing systems)
+        void Move(Camera_Movement direction, float deltaTime)
+        {
+            float velocity = MovementSpeed * deltaTime;
+
+            if (direction == FORWARD)
+                Position += Front * velocity;
+
+            if (direction == BACKWARD)
+                Position -= Front * velocity;
+
+            if (direction == LEFT)
+                Position -= Right * velocity;
+
+            if (direction == RIGHT)
+                Position += Right * velocity;
+
+            if (direction == UP)
+                Position += Up * velocity;
+
+            if (direction == DOWN)
+                Position -= Up * velocity;
+
+        }
+
+        // Processes input received from a mouse input system. Expects the offset value in both the x and y direction
+        void RotateMouse(float xoffset, float yoffset, GLboolean constrainPitch = true)
+        {
+            xoffset *= MouseSensitivity;
+            yoffset *= MouseSensitivity;
+
+            Yaw += xoffset;
+            Pitch += yoffset;
+
+            // Make sure that when pitch is out of bounds, screen doesn't get flipped
+            if (constrainPitch)
+            {
+                if (Pitch > 89.0f)
+                    Pitch = 89.0f;
+                if (Pitch < -89.0f)
+                    Pitch = -89.0f;
+            }
+
+            // Update Front, Right and Up Vectors using the updated Euler angles
+            updateCameraVectors();
+        }
+
+        // Rotates camera towards specific direction by angle. **Angle is NOT in radians**.
+        void RotateRad(Camera_Movement direction, float angle, GLboolean constrainPitch = true)
+        {
+            switch(direction)
+            {
+                case UP:
+                    Pitch -= angle;
+                    break;
+
+                case DOWN:
+                    Pitch += angle;
+                    break;
+
+                case LEFT:
+                    Yaw += angle;
+                    break;
+
+                case RIGHT:
+                    Yaw -= angle;
+                    break;
+
+                default: break;
+            }
+
+            if (constrainPitch)
+            {
+                if (Pitch > 89.0f)
+                    Pitch = 89.0f;
+                if (Pitch < -89.0f)
+                    Pitch = -89.0f;
+            }
+
+            updateCameraVectors();
+        }
+
+        // Orbits around lookat as center. x, y axis
+        // Idea:
+        // 1. Move to center
+        // 2. Rotate how you like (with angles (set value each time))
+        // 3. Update Front, Right
+        // 4. Move -Front * radius
+        void Orbit(Camera_Movement direction, float radius, float angle)
+        {
+            Position += Front * radius;
+
+            RotateRad(direction, angle);
+            
+            Position -= Front * radius;
+        }
+
+        // Processes input received from a mouse scroll-wheel event. Only requires input on the vertical wheel-axis
+        void Zoom(float yoffset)
+        {
+            if (zoom >= 1.0f && zoom <= 45.0f)
+                zoom -= yoffset;
+
+            if (zoom <= 1.0f)
+                zoom = 1.0f;
+
+            if (zoom >= 45.0f)
+                zoom = 45.0f;
+        }
+
+    private:
+    // Calculates the front vector from the Camera's (updated) Euler Angles
+        void updateCameraVectors()
+        {
+            // Calculate the new Front vector
+            glm::vec3 front;
+            front.x = cos(glm::radians(Yaw)) * cos(glm::radians(Pitch));
+            front.y = sin(glm::radians(Pitch));
+            front.z = sin(glm::radians(Yaw)) * cos(glm::radians(Pitch));
+
+            Front = glm::normalize(front);
+            
+            // Also re-calculate the Right and Up vector
+            Right = glm::normalize(glm::cross(Front, WorldUp));
+            Up = glm::normalize(glm::cross(Right, Front));
+        }
+};
+
+#endif

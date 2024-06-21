@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\課程\電腦繪圖\HW\HW1\P76121314_鄭煜醴\sample_code\build\CMakeFiles\02f6c989b32fc0237c9f931bf8adb3f0\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B3832AE7-5E19-34C9-A804-B5BB0678B27E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
