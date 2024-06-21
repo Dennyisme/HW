@@ -1,0 +1,396 @@
+[20/300] Train loss: 4.36798, Valid loss: 3.47315, Elapsed_time: 142.28321
+Current_accuracy : 0.000, Current_norm_ED  : 0.0337
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0337
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | an                        | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | an                        | 0.0000	False
+--------------------------------------------------------------------------------
+[40/300] Train loss: 3.15625, Valid loss: 3.13885, Elapsed_time: 281.50373
+Current_accuracy : 0.000, Current_norm_ED  : 0.0859
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0859
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abon                      | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abion                     | 0.0000	False
+--------------------------------------------------------------------------------
+[60/300] Train loss: 2.78464, Valid loss: 2.76727, Elapsed_time: 419.50127
+Current_accuracy : 0.000, Current_norm_ED  : 0.1167
+Best_accuracy    : 0.000, Best_norm_ED     : 0.1167
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abision                   | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abision                   | 0.0000	False
+--------------------------------------------------------------------------------
+[80/300] Train loss: 2.47798, Valid loss: 2.51666, Elapsed_time: 557.38427
+Current_accuracy : 0.000, Current_norm_ED  : 0.1991
+Best_accuracy    : 0.000, Best_norm_ED     : 0.1991
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Abington brainstorm chekmak prerefused unbeliefful | abisuition                | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abisuniation              | 0.0000	False
+--------------------------------------------------------------------------------
+[100/300] Train loss: 2.19300, Valid loss: 2.20612, Elapsed_time: 693.74131
+Current_accuracy : 0.000, Current_norm_ED  : 0.2011
+Best_accuracy    : 0.000, Best_norm_ED     : 0.2011
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosmnation              | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosmnation              | 0.0000	False
+--------------------------------------------------------------------------------
+[120/300] Train loss: 1.90903, Valid loss: 2.03304, Elapsed_time: 832.76931
+Current_accuracy : 0.000, Current_norm_ED  : 0.2587
+Best_accuracy    : 0.000, Best_norm_ED     : 0.2587
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abis unication            | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abisis unnication         | 0.0000	False
+--------------------------------------------------------------------------------
+[140/300] Train loss: 1.73073, Valid loss: 2.41430, Elapsed_time: 972.67934
+Current_accuracy : 0.000, Current_norm_ED  : 0.2102
+Best_accuracy    : 0.000, Best_norm_ED     : 0.2587
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abi ication               | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abioi iication            | 0.0000	False
+--------------------------------------------------------------------------------
+[160/300] Train loss: 1.44086, Valid loss: 3.75367, Elapsed_time: 1113.39404
+Current_accuracy : 0.000, Current_norm_ED  : 0.3170
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3170
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abioisuiouiuouououuouuiuiouiation | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiouoiuououiououiouioiuiaion | 0.0000	False
+--------------------------------------------------------------------------------
+[180/300] Train loss: 1.31964, Valid loss: 2.15382, Elapsed_time: 1253.28666
+Current_accuracy : 0.000, Current_norm_ED  : 0.2356
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3170
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abioisnteiation           | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abioisnteiation           | 0.0000	False
+--------------------------------------------------------------------------------
+[200/300] Train loss: 0.99897, Valid loss: 1.92571, Elapsed_time: 1392.06167
+Current_accuracy : 0.000, Current_norm_ED  : 0.4428
+Best_accuracy    : 0.000, Best_norm_ED     : 0.4428
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abioisuiaibinouountntxmunication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosupiainouountrxmuniation | 0.0000	False
+--------------------------------------------------------------------------------
+[220/300] Train loss: 0.77151, Valid loss: 1.03096, Elapsed_time: 1531.71973
+Current_accuracy : 0.000, Current_norm_ED  : 0.5674
+Best_accuracy    : 0.000, Best_norm_ED     : 0.5674
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiois nuplililiinocountexcunication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abioi nsuplliooecouneminication | 0.0000	False
+--------------------------------------------------------------------------------
+[240/300] Train loss: 0.39044, Valid loss: 4.70948, Elapsed_time: 1672.68341
+Current_accuracy : 0.000, Current_norm_ED  : 0.3569
+Best_accuracy    : 0.000, Best_norm_ED     : 0.5674
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | aioisuciuncncincincinciniction | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abioiuiucinicinincinconconcicincinication | 0.0000	False
+--------------------------------------------------------------------------------
+[260/300] Train loss: 0.16746, Valid loss: 0.10338, Elapsed_time: 1812.90944
+Current_accuracy : 33.333, Current_norm_ED  : 0.9769
+Best_accuracy    : 33.333, Best_norm_ED     : 0.9769
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsuppliable belibeling posey counterexcommunication | 0.0000	True
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsuppliable elibeling posey counterexcommunication | 0.0000	False
+--------------------------------------------------------------------------------
+[280/300] Train loss: 0.06947, Valid loss: 0.05605, Elapsed_time: 1953.55444
+Current_accuracy : 88.889, Current_norm_ED  : 0.9935
+Best_accuracy    : 88.889, Best_norm_ED     : 0.9935
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Abington brainstorm chekmak prerefused unbeliefful | Abington brainstor ekmak prefused unbeliefful | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsuppliable belibeling posey counterexcommunication | 0.0000	True
+--------------------------------------------------------------------------------
+[300/300] Train loss: 0.03924, Valid loss: 0.03260, Elapsed_time: 2090.84945
+Current_accuracy : 100.000, Current_norm_ED  : 1.0000
+Best_accuracy    : 100.000, Best_norm_ED     : 1.0000
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsuppliable belibeling posey counterexcommunication | 0.0000	True
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsuppliable belibeling posey counterexcommunication | 0.0000	True
+--------------------------------------------------------------------------------
+[20/300] Train loss: 4.29594, Valid loss: 3.56094, Elapsed_time: 146.31751
+Current_accuracy : 0.000, Current_norm_ED  : 0.0561
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0561
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | aon                       | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | aon                       | 0.0000	False
+--------------------------------------------------------------------------------
+[40/300] Train loss: 3.10836, Valid loss: 3.19460, Elapsed_time: 283.54368
+Current_accuracy : 0.000, Current_norm_ED  : 0.0935
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0935
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiion                    | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abion                     | 0.0000	False
+--------------------------------------------------------------------------------
+[60/300] Train loss: 2.79096, Valid loss: 2.77904, Elapsed_time: 423.22971
+Current_accuracy : 0.000, Current_norm_ED  : 0.1333
+Best_accuracy    : 0.000, Best_norm_ED     : 0.1333
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abisaiaion                | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abisaion                  | 0.0000	False
+--------------------------------------------------------------------------------
+[80/300] Train loss: 2.51853, Valid loss: 2.40614, Elapsed_time: 562.16393
+Current_accuracy : 0.000, Current_norm_ED  : 0.1428
+Best_accuracy    : 0.000, Best_norm_ED     : 0.1428
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abisaion                  | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abisnaion                 | 0.0000	False
+--------------------------------------------------------------------------------
+[100/300] Train loss: 2.27115, Valid loss: 2.29077, Elapsed_time: 699.55446
+Current_accuracy : 0.000, Current_norm_ED  : 0.1685
+Best_accuracy    : 0.000, Best_norm_ED     : 0.1685
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosiation               | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosiation               | 0.0000	False
+--------------------------------------------------------------------------------
+[120/300] Train loss: 2.00433, Valid loss: 2.29300, Elapsed_time: 836.13540
+Current_accuracy : 0.000, Current_norm_ED  : 0.2328
+Best_accuracy    : 0.000, Best_norm_ED     : 0.2328
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abios umcation            | 0.0000	False
+Abington brainstorm chekmak prerefused unbeliefful | abiosumction              | 0.0000	False
+--------------------------------------------------------------------------------
+[140/300] Train loss: 1.76125, Valid loss: 2.15223, Elapsed_time: 974.00997
+Current_accuracy : 0.000, Current_norm_ED  : 0.2367
+Best_accuracy    : 0.000, Best_norm_ED     : 0.2367
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosumifation            | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosuomuiation           | 0.0000	False
+--------------------------------------------------------------------------------
+[160/300] Train loss: 1.57448, Valid loss: 1.62463, Elapsed_time: 1111.54451
+Current_accuracy : 0.000, Current_norm_ED  : 0.3130
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3130
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abios upcmuncation        | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abios upexmuncation       | 0.0000	False
+--------------------------------------------------------------------------------
+[180/300] Train loss: 1.32592, Valid loss: 1.33538, Elapsed_time: 1250.75684
+Current_accuracy : 0.000, Current_norm_ED  : 0.3957
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3957
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unupneomunication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unuponeomunication | 0.0000	False
+--------------------------------------------------------------------------------
+[200/300] Train loss: 1.14605, Valid loss: 2.88265, Elapsed_time: 1388.22763
+Current_accuracy : 0.000, Current_norm_ED  : 0.3393
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3957
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosisisaisiiiisnononiniaion | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosnsisisisisnsssononiation | 0.0000	False
+--------------------------------------------------------------------------------
+[220/300] Train loss: 0.96093, Valid loss: 1.58547, Elapsed_time: 1524.68018
+Current_accuracy : 0.000, Current_norm_ED  : 0.4409
+Best_accuracy    : 0.000, Best_norm_ED     : 0.4409
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosisooucounterexcmunication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosisuocoutexcmunication | 0.0000	False
+--------------------------------------------------------------------------------
+[240/300] Train loss: 0.80841, Valid loss: 0.79691, Elapsed_time: 1669.22131
+Current_accuracy : 0.000, Current_norm_ED  : 0.6285
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6285
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis usupliapy coutexcomuication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis usupliabisy counterexcomuication | 0.0000	False
+--------------------------------------------------------------------------------
+[260/300] Train loss: 0.61561, Valid loss: 0.53405, Elapsed_time: 1812.91450
+Current_accuracy : 0.000, Current_norm_ED  : 0.7659
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7659
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsupliablbiiinosyo conterexcomunication | 0.0000	False
+Abington brainstorm chekmak prerefused unbeliefful | Abintonaintoefuuniful     | 0.0000	False
+--------------------------------------------------------------------------------
+[280/300] Train loss: 0.34100, Valid loss: 0.23284, Elapsed_time: 2012.28510
+Current_accuracy : 0.000, Current_norm_ED  : 0.9013
+Best_accuracy    : 0.000, Best_norm_ED     : 0.9013
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsuliable blibling posey counterexcomunication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsupliable liblin posey counterexcommunication | 0.0000	False
+--------------------------------------------------------------------------------
+[20/300] Train loss: 4.58924, Valid loss: 3.57057, Elapsed_time: 218.26673
+Current_accuracy : 0.000, Current_norm_ED  : 0.0085
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0085
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication |                           | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication |                           | 0.0000	False
+--------------------------------------------------------------------------------
+[40/300] Train loss: 3.23658, Valid loss: 2.81251, Elapsed_time: 428.66525
+Current_accuracy : 0.000, Current_norm_ED  : 0.0626
+Best_accuracy    : 0.000, Best_norm_ED     : 0.0626
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abn                       | 0.0000	False
+Abington brainstorm chekmak prerefused unbeliefful | abin                      | 0.0000	False
+--------------------------------------------------------------------------------
+[60/300] Train loss: 2.86490, Valid loss: 2.64404, Elapsed_time: 576.02255
+Current_accuracy : 0.000, Current_norm_ED  : 0.1167
+Best_accuracy    : 0.000, Best_norm_ED     : 0.1167
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abision                   | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abision                   | 0.0000	False
+--------------------------------------------------------------------------------
+[80/300] Train loss: 2.55554, Valid loss: 2.50393, Elapsed_time: 742.30182
+Current_accuracy : 0.000, Current_norm_ED  : 0.1409
+Best_accuracy    : 0.000, Best_norm_ED     : 0.1409
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiostion                 | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abistion                  | 0.0000	False
+--------------------------------------------------------------------------------
+[100/300] Train loss: 2.31607, Valid loss: 2.32481, Elapsed_time: 964.44487
+Current_accuracy : 0.000, Current_norm_ED  : 0.1770
+Best_accuracy    : 0.000, Best_norm_ED     : 0.1770
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosation                | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosiation               | 0.0000	False
+--------------------------------------------------------------------------------
+[120/300] Train loss: 2.03772, Valid loss: 1.91313, Elapsed_time: 1185.17255
+Current_accuracy : 0.000, Current_norm_ED  : 0.2376
+Best_accuracy    : 0.000, Best_norm_ED     : 0.2376
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosmniation             | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosumniation            | 0.0000	False
+--------------------------------------------------------------------------------
+[140/300] Train loss: 1.79458, Valid loss: 1.86947, Elapsed_time: 1406.54423
+Current_accuracy : 0.000, Current_norm_ED  : 0.2374
+Best_accuracy    : 0.000, Best_norm_ED     : 0.2376
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abioinummiaion            | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abioiumiation             | 0.0000	False
+--------------------------------------------------------------------------------
+[160/300] Train loss: 1.62060, Valid loss: 1.88171, Elapsed_time: 1621.79833
+Current_accuracy : 0.000, Current_norm_ED  : 0.2539
+Best_accuracy    : 0.000, Best_norm_ED     : 0.2539
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abioinuemuiation          | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abioinuemuication         | 0.0000	False
+--------------------------------------------------------------------------------
+[180/300] Train loss: 1.34470, Valid loss: 2.54032, Elapsed_time: 1839.07900
+Current_accuracy : 0.000, Current_norm_ED  : 0.2652
+Best_accuracy    : 0.000, Best_norm_ED     : 0.2652
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abioiuouiation            | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abioisucounication        | 0.0000	False
+--------------------------------------------------------------------------------
+[200/300] Train loss: 1.19077, Valid loss: 1.08434, Elapsed_time: 2058.48500
+Current_accuracy : 0.000, Current_norm_ED  : 0.5359
+Best_accuracy    : 0.000, Best_norm_ED     : 0.5359
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis upiliabcountexcomunication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosi unupliabcountexcomunication | 0.0000	False
+--------------------------------------------------------------------------------
+[220/300] Train loss: 0.96616, Valid loss: 0.85009, Elapsed_time: 2284.84400
+Current_accuracy : 0.000, Current_norm_ED  : 0.5704
+Best_accuracy    : 0.000, Best_norm_ED     : 0.5704
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosi unupliaby countexcomunication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosi unupliaby countexcomunication | 0.0000	False
+--------------------------------------------------------------------------------
+[240/300] Train loss: 0.73260, Valid loss: 0.64519, Elapsed_time: 2506.89800
+Current_accuracy : 0.000, Current_norm_ED  : 0.6894
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6894
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsupliabebosey countrexcomunication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsupliabebeboey counterexcomunication | 0.0000	False
+--------------------------------------------------------------------------------
+[260/300] Train loss: 0.55280, Valid loss: 0.60524, Elapsed_time: 2720.64756
+Current_accuracy : 0.000, Current_norm_ED  : 0.7331
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7331
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsupliab eiposey countexcomunication | 0.0000	False
+Abington brainstorm chekmak prerefused unbeliefful | Abiney ounteoueiful       | 0.0000	False
+--------------------------------------------------------------------------------
+[280/300] Train loss: 0.46120, Valid loss: 0.47643, Elapsed_time: 2938.98679
+Current_accuracy : 0.000, Current_norm_ED  : 0.7604
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7604
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsupliabl lil osey countexcomunication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsupliabl lil osey countexcomunication | 0.0000	False
+--------------------------------------------------------------------------------
+[300/300] Train loss: 0.37909, Valid loss: 0.36221, Elapsed_time: 3150.87679
+Current_accuracy : 0.000, Current_norm_ED  : 0.8220
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8220
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsupliable ei posey counterexcomunication | 0.0000	False
+abiosis unsuppliable belibeling posey counterexcommunication | abiosis unsupliableie posey counterexcomunication | 0.0000	False
+--------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+D:\課程\軟體設計\hw\HW2\P76121314_HW2程式碼\.metadata\.plugins\org.eclipse.jdt.core
+1067094681.index
+1696264553.index
+1865797976.index
+3409990771.index
